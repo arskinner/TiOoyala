@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* ComOoyalaModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComOoyalaModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComOoyalaModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComOoyalaModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComOoyalaModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComOoyalaModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComOoyalaModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComOoyalaModuleAssets.m */; };
+		2D0A68071A7704EC005845CF /* ComOoyalaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0A68061A7704EC005845CF /* ComOoyalaView.m */; };
+		2D0A68091A7704FB005845CF /* ComOoyalaViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68041A7704A8005845CF /* ComOoyalaViewProxy.h */; };
+		2D0A680B1A770512005845CF /* ComOoyalaViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0A680A1A770512005845CF /* ComOoyalaViewProxy.m */; };
+		2D0A680D1A77052F005845CF /* ComOoyalaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A680C1A77052F005845CF /* ComOoyalaView.h */; };
+		2D0A68BF1A7707B4005845CF /* OOAdPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68851A7707B4005845CF /* OOAdPlugin.h */; };
+		2D0A68C01A7707B4005845CF /* OOAdPluginManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68861A7707B4005845CF /* OOAdPluginManagerProtocol.h */; };
+		2D0A68C11A7707B4005845CF /* OOAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68871A7707B4005845CF /* OOAdSpot.h */; };
+		2D0A68C21A7707B4005845CF /* OOAdSpotManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68881A7707B4005845CF /* OOAdSpotManager.h */; };
+		2D0A68C31A7707B4005845CF /* OOAdSpotPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68891A7707B4005845CF /* OOAdSpotPlugin.h */; };
+		2D0A68C41A7707B4005845CF /* OOAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A688A1A7707B4005845CF /* OOAnalytics.h */; };
+		2D0A68C51A7707B4005845CF /* OOAuthorizableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A688B1A7707B4005845CF /* OOAuthorizableItem.h */; };
+		2D0A68C61A7707B4005845CF /* OOCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A688C1A7707B4005845CF /* OOCallbacks.h */; };
+		2D0A68C71A7707B4005845CF /* OOCaption.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A688D1A7707B4005845CF /* OOCaption.h */; };
+		2D0A68C81A7707B4005845CF /* OOChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A688E1A7707B4005845CF /* OOChannel.h */; };
+		2D0A68C91A7707B4005845CF /* OOChannelSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A688F1A7707B4005845CF /* OOChannelSet.h */; };
+		2D0A68CA1A7707B4005845CF /* OOClientId.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68901A7707B4005845CF /* OOClientId.h */; };
+		2D0A68CB1A7707B4005845CF /* OOClosedCaptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68911A7707B4005845CF /* OOClosedCaptions.h */; };
+		2D0A68CC1A7707B4005845CF /* OOClosedCaptionsStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68921A7707B4005845CF /* OOClosedCaptionsStyle.h */; };
+		2D0A68CD1A7707B4005845CF /* OOContentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68931A7707B4005845CF /* OOContentItem.h */; };
+		2D0A68CE1A7707B4005845CF /* OODebugMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68941A7707B4005845CF /* OODebugMode.h */; };
+		2D0A68CF1A7707B4005845CF /* OODefaultPlayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68951A7707B4005845CF /* OODefaultPlayerInfo.h */; };
+		2D0A68D01A7707B4005845CF /* OODynamicChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68961A7707B4005845CF /* OODynamicChannel.h */; };
+		2D0A68D11A7707B4005845CF /* OOEmbeddedSecureURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68971A7707B4005845CF /* OOEmbeddedSecureURLGenerator.h */; };
+		2D0A68D21A7707B4005845CF /* OOEmbeddedSignatureGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68981A7707B4005845CF /* OOEmbeddedSignatureGenerator.h */; };
+		2D0A68D31A7707B4005845CF /* OOEmbedTokenGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68991A7707B4005845CF /* OOEmbedTokenGenerator.h */; };
+		2D0A68D41A7707B4005845CF /* OOFCCTVRating.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A689A1A7707B4005845CF /* OOFCCTVRating.h */; };
+		2D0A68D51A7707B4005845CF /* OOFCCTVRatingConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A689B1A7707B4005845CF /* OOFCCTVRatingConfiguration.h */; };
+		2D0A68D61A7707B4005845CF /* OOLifeCycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A689C1A7707B4005845CF /* OOLifeCycle.h */; };
+		2D0A68D71A7707B4005845CF /* OOManagedAdsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A689D1A7707B4005845CF /* OOManagedAdsPlugin.h */; };
+		2D0A68D81A7707B4005845CF /* OOManagedAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A689E1A7707B4005845CF /* OOManagedAdSpot.h */; };
+		2D0A68D91A7707B4005845CF /* OOModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A689F1A7707B4005845CF /* OOModule.h */; };
+		2D0A68DA1A7707B4005845CF /* OOOoyalaAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68A01A7707B4005845CF /* OOOoyalaAdSpot.h */; };
+		2D0A68DB1A7707B4005845CF /* OOOoyalaAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68A11A7707B4005845CF /* OOOoyalaAPIClient.h */; };
+		2D0A68DC1A7707B4005845CF /* OOOoyalaError.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68A21A7707B4005845CF /* OOOoyalaError.h */; };
+		2D0A68DD1A7707B4005845CF /* OOOoyalaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68A31A7707B4005845CF /* OOOoyalaPlayer.h */; };
+		2D0A68DE1A7707B4005845CF /* OOOoyalaPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68A41A7707B4005845CF /* OOOoyalaPlayerViewController.h */; };
+		2D0A68DF1A7707B4005845CF /* OOOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68A51A7707B4005845CF /* OOOptions.h */; };
+		2D0A68E01A7707B4005845CF /* OOOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68A61A7707B4005845CF /* OOOrderedDictionary.h */; };
+		2D0A68E11A7707B4005845CF /* OOPaginatedParentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68A71A7707B4005845CF /* OOPaginatedParentItem.h */; };
+		2D0A68E21A7707B4005845CF /* OOPlayableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68A81A7707B4005845CF /* OOPlayableItem.h */; };
+		2D0A68E31A7707B4005845CF /* OOPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68A91A7707B4005845CF /* OOPlayer.h */; };
+		2D0A68E41A7707B4005845CF /* OOPlayerDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68AA1A7707B4005845CF /* OOPlayerDomain.h */; };
+		2D0A68E51A7707B4005845CF /* OOPlayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68AB1A7707B4005845CF /* OOPlayerInfo.h */; };
+		2D0A68E61A7707B4005845CF /* OOPlayerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68AC1A7707B4005845CF /* OOPlayerProtocol.h */; };
+		2D0A68E71A7707B4005845CF /* OOReturnState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68AD1A7707B4005845CF /* OOReturnState.h */; };
+		2D0A68E81A7707B4005845CF /* OOSecureURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68AE1A7707B4005845CF /* OOSecureURLGenerator.h */; };
+		2D0A68E91A7707B4005845CF /* OOSignatureGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68AF1A7707B4005845CF /* OOSignatureGenerator.h */; };
+		2D0A68EA1A7707B4005845CF /* OOStateNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68B01A7707B4005845CF /* OOStateNotifier.h */; };
+		2D0A68EB1A7707B4005845CF /* OOStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68B11A7707B4005845CF /* OOStream.h */; };
+		2D0A68EC1A7707B4005845CF /* OOStreamPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68B21A7707B4005845CF /* OOStreamPlayer.h */; };
+		2D0A68ED1A7707B4005845CF /* OOTBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68B31A7707B4005845CF /* OOTBXML.h */; };
+		2D0A68EE1A7707B4005845CF /* OOUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68B41A7707B4005845CF /* OOUserInfo.h */; };
+		2D0A68EF1A7707B4005845CF /* OOVASTAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68B51A7707B4005845CF /* OOVASTAd.h */; };
+		2D0A68F01A7707B4005845CF /* OOVASTAdData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68B61A7707B4005845CF /* OOVASTAdData.h */; };
+		2D0A68F11A7707B4005845CF /* OOVASTAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68B71A7707B4005845CF /* OOVASTAdSpot.h */; };
+		2D0A68F21A7707B4005845CF /* OOVASTLinearAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68B81A7707B4005845CF /* OOVASTLinearAd.h */; };
+		2D0A68F31A7707B4005845CF /* OOVASTSequenceItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68B91A7707B4005845CF /* OOVASTSequenceItem.h */; };
+		2D0A68F41A7707B4005845CF /* OOVASTStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68BA1A7707B4005845CF /* OOVASTStream.h */; };
+		2D0A68F51A7707B4005845CF /* OOVASTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68BB1A7707B4005845CF /* OOVASTUtils.h */; };
+		2D0A68F61A7707B4005845CF /* OOVASTWrapperAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68BC1A7707B4005845CF /* OOVASTWrapperAd.h */; };
+		2D0A68F71A7707B4005845CF /* OOVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A68BD1A7707B4005845CF /* OOVideo.h */; };
+		2D0A68F81A7707B4005845CF /* libOoyalaSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A68BE1A7707B4005845CF /* libOoyalaSDK.a */; };
+		2D0A69021A770813005845CF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A68F91A770813005845CF /* AVFoundation.framework */; };
+		2D0A69031A770813005845CF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A68FA1A770813005845CF /* CFNetwork.framework */; };
+		2D0A69041A770813005845CF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A68FB1A770813005845CF /* CoreMedia.framework */; };
+		2D0A69051A770813005845CF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A68FC1A770813005845CF /* CoreText.framework */; };
+		2D0A69061A770813005845CF /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A68FD1A770813005845CF /* MediaAccessibility.framework */; };
+		2D0A69071A770813005845CF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A68FE1A770813005845CF /* MediaPlayer.framework */; };
+		2D0A69081A770813005845CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A68FF1A770813005845CF /* QuartzCore.framework */; };
+		2D0A69091A770813005845CF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A69001A770813005845CF /* Security.framework */; };
+		2D0A690A1A770813005845CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A69011A770813005845CF /* SystemConfiguration.framework */; };
+		2DF5F96C1A89A08600C7D8DC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF5F96B1A89A08600C7D8DC /* libc++.dylib */; };
+		2DF5F96E1A89A09400C7D8DC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF5F96D1A89A09400C7D8DC /* libxml2.dylib */; };
+		AA747D9F0F9514B9006C5449 /* ComOoyala_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComOoyala_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = ooyala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* ComOoyalaModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComOoyalaModule.h; path = Classes/ComOoyalaModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComOoyalaModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComOoyalaModule.m; path = Classes/ComOoyalaModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* ComOoyalaModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComOoyalaModuleAssets.h; path = Classes/ComOoyalaModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComOoyalaModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComOoyalaModuleAssets.m; path = Classes/ComOoyalaModuleAssets.m; sourceTree = "<group>"; };
+		2D0A68041A7704A8005845CF /* ComOoyalaViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComOoyalaViewProxy.h; path = Classes/ComOoyalaViewProxy.h; sourceTree = "<group>"; };
+		2D0A68061A7704EC005845CF /* ComOoyalaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComOoyalaView.m; path = Classes/ComOoyalaView.m; sourceTree = "<group>"; };
+		2D0A680A1A770512005845CF /* ComOoyalaViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComOoyalaViewProxy.m; path = Classes/ComOoyalaViewProxy.m; sourceTree = "<group>"; };
+		2D0A680C1A77052F005845CF /* ComOoyalaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComOoyalaView.h; path = Classes/ComOoyalaView.h; sourceTree = "<group>"; };
+		2D0A68851A7707B4005845CF /* OOAdPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdPlugin.h; sourceTree = "<group>"; };
+		2D0A68861A7707B4005845CF /* OOAdPluginManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdPluginManagerProtocol.h; sourceTree = "<group>"; };
+		2D0A68871A7707B4005845CF /* OOAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdSpot.h; sourceTree = "<group>"; };
+		2D0A68881A7707B4005845CF /* OOAdSpotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdSpotManager.h; sourceTree = "<group>"; };
+		2D0A68891A7707B4005845CF /* OOAdSpotPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdSpotPlugin.h; sourceTree = "<group>"; };
+		2D0A688A1A7707B4005845CF /* OOAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAnalytics.h; sourceTree = "<group>"; };
+		2D0A688B1A7707B4005845CF /* OOAuthorizableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAuthorizableItem.h; sourceTree = "<group>"; };
+		2D0A688C1A7707B4005845CF /* OOCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCallbacks.h; sourceTree = "<group>"; };
+		2D0A688D1A7707B4005845CF /* OOCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCaption.h; sourceTree = "<group>"; };
+		2D0A688E1A7707B4005845CF /* OOChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOChannel.h; sourceTree = "<group>"; };
+		2D0A688F1A7707B4005845CF /* OOChannelSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOChannelSet.h; sourceTree = "<group>"; };
+		2D0A68901A7707B4005845CF /* OOClientId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClientId.h; sourceTree = "<group>"; };
+		2D0A68911A7707B4005845CF /* OOClosedCaptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptions.h; sourceTree = "<group>"; };
+		2D0A68921A7707B4005845CF /* OOClosedCaptionsStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsStyle.h; sourceTree = "<group>"; };
+		2D0A68931A7707B4005845CF /* OOContentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOContentItem.h; sourceTree = "<group>"; };
+		2D0A68941A7707B4005845CF /* OODebugMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODebugMode.h; sourceTree = "<group>"; };
+		2D0A68951A7707B4005845CF /* OODefaultPlayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODefaultPlayerInfo.h; sourceTree = "<group>"; };
+		2D0A68961A7707B4005845CF /* OODynamicChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODynamicChannel.h; sourceTree = "<group>"; };
+		2D0A68971A7707B4005845CF /* OOEmbeddedSecureURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOEmbeddedSecureURLGenerator.h; sourceTree = "<group>"; };
+		2D0A68981A7707B4005845CF /* OOEmbeddedSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOEmbeddedSignatureGenerator.h; sourceTree = "<group>"; };
+		2D0A68991A7707B4005845CF /* OOEmbedTokenGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOEmbedTokenGenerator.h; sourceTree = "<group>"; };
+		2D0A689A1A7707B4005845CF /* OOFCCTVRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFCCTVRating.h; sourceTree = "<group>"; };
+		2D0A689B1A7707B4005845CF /* OOFCCTVRatingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFCCTVRatingConfiguration.h; sourceTree = "<group>"; };
+		2D0A689C1A7707B4005845CF /* OOLifeCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOLifeCycle.h; sourceTree = "<group>"; };
+		2D0A689D1A7707B4005845CF /* OOManagedAdsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOManagedAdsPlugin.h; sourceTree = "<group>"; };
+		2D0A689E1A7707B4005845CF /* OOManagedAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOManagedAdSpot.h; sourceTree = "<group>"; };
+		2D0A689F1A7707B4005845CF /* OOModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOModule.h; sourceTree = "<group>"; };
+		2D0A68A01A7707B4005845CF /* OOOoyalaAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaAdSpot.h; sourceTree = "<group>"; };
+		2D0A68A11A7707B4005845CF /* OOOoyalaAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaAPIClient.h; sourceTree = "<group>"; };
+		2D0A68A21A7707B4005845CF /* OOOoyalaError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaError.h; sourceTree = "<group>"; };
+		2D0A68A31A7707B4005845CF /* OOOoyalaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaPlayer.h; sourceTree = "<group>"; };
+		2D0A68A41A7707B4005845CF /* OOOoyalaPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaPlayerViewController.h; sourceTree = "<group>"; };
+		2D0A68A51A7707B4005845CF /* OOOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOptions.h; sourceTree = "<group>"; };
+		2D0A68A61A7707B4005845CF /* OOOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOrderedDictionary.h; sourceTree = "<group>"; };
+		2D0A68A71A7707B4005845CF /* OOPaginatedParentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPaginatedParentItem.h; sourceTree = "<group>"; };
+		2D0A68A81A7707B4005845CF /* OOPlayableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayableItem.h; sourceTree = "<group>"; };
+		2D0A68A91A7707B4005845CF /* OOPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayer.h; sourceTree = "<group>"; };
+		2D0A68AA1A7707B4005845CF /* OOPlayerDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayerDomain.h; sourceTree = "<group>"; };
+		2D0A68AB1A7707B4005845CF /* OOPlayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayerInfo.h; sourceTree = "<group>"; };
+		2D0A68AC1A7707B4005845CF /* OOPlayerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayerProtocol.h; sourceTree = "<group>"; };
+		2D0A68AD1A7707B4005845CF /* OOReturnState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOReturnState.h; sourceTree = "<group>"; };
+		2D0A68AE1A7707B4005845CF /* OOSecureURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOSecureURLGenerator.h; sourceTree = "<group>"; };
+		2D0A68AF1A7707B4005845CF /* OOSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOSignatureGenerator.h; sourceTree = "<group>"; };
+		2D0A68B01A7707B4005845CF /* OOStateNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStateNotifier.h; sourceTree = "<group>"; };
+		2D0A68B11A7707B4005845CF /* OOStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStream.h; sourceTree = "<group>"; };
+		2D0A68B21A7707B4005845CF /* OOStreamPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStreamPlayer.h; sourceTree = "<group>"; };
+		2D0A68B31A7707B4005845CF /* OOTBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOTBXML.h; sourceTree = "<group>"; };
+		2D0A68B41A7707B4005845CF /* OOUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOUserInfo.h; sourceTree = "<group>"; };
+		2D0A68B51A7707B4005845CF /* OOVASTAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTAd.h; sourceTree = "<group>"; };
+		2D0A68B61A7707B4005845CF /* OOVASTAdData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTAdData.h; sourceTree = "<group>"; };
+		2D0A68B71A7707B4005845CF /* OOVASTAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTAdSpot.h; sourceTree = "<group>"; };
+		2D0A68B81A7707B4005845CF /* OOVASTLinearAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTLinearAd.h; sourceTree = "<group>"; };
+		2D0A68B91A7707B4005845CF /* OOVASTSequenceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTSequenceItem.h; sourceTree = "<group>"; };
+		2D0A68BA1A7707B4005845CF /* OOVASTStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTStream.h; sourceTree = "<group>"; };
+		2D0A68BB1A7707B4005845CF /* OOVASTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTUtils.h; sourceTree = "<group>"; };
+		2D0A68BC1A7707B4005845CF /* OOVASTWrapperAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTWrapperAd.h; sourceTree = "<group>"; };
+		2D0A68BD1A7707B4005845CF /* OOVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVideo.h; sourceTree = "<group>"; };
+		2D0A68BE1A7707B4005845CF /* libOoyalaSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOoyalaSDK.a; path = OoyalaSDK/libOoyalaSDK.a; sourceTree = "<group>"; };
+		2D0A68F91A770813005845CF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2D0A68FA1A770813005845CF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2D0A68FB1A770813005845CF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2D0A68FC1A770813005845CF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2D0A68FD1A770813005845CF /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		2D0A68FE1A770813005845CF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2D0A68FF1A770813005845CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2D0A69001A770813005845CF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2D0A69011A770813005845CF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2DF5F96B1A89A08600C7D8DC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		2DF5F96D1A89A09400C7D8DC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		2DF5F96F1A89A0B700C7D8DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA747D9E0F9514B9006C5449 /* ComOoyala_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComOoyala_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libComOoyala.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComOoyala.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF5F96C1A89A08600C7D8DC /* libc++.dylib in Frameworks */,
+				2DF5F96E1A89A09400C7D8DC /* libxml2.dylib in Frameworks */,
+				2D0A69021A770813005845CF /* AVFoundation.framework in Frameworks */,
+				2D0A69031A770813005845CF /* CFNetwork.framework in Frameworks */,
+				2D0A69041A770813005845CF /* CoreMedia.framework in Frameworks */,
+				2D0A69051A770813005845CF /* CoreText.framework in Frameworks */,
+				2D0A69061A770813005845CF /* MediaAccessibility.framework in Frameworks */,
+				2D0A69071A770813005845CF /* MediaPlayer.framework in Frameworks */,
+				2D0A69081A770813005845CF /* QuartzCore.framework in Frameworks */,
+				2D0A69091A770813005845CF /* Security.framework in Frameworks */,
+				2D0A690A1A770813005845CF /* SystemConfiguration.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				2D0A68F81A7707B4005845CF /* libOoyalaSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libComOoyala.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* ooyala */ = {
+			isa = PBXGroup;
+			children = (
+				2D0A68831A770794005845CF /* OoyalaSDK */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = ooyala;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF5F96F1A89A0B700C7D8DC /* CoreGraphics.framework */,
+				2DF5F96D1A89A09400C7D8DC /* libxml2.dylib */,
+				2DF5F96B1A89A08600C7D8DC /* libc++.dylib */,
+				2D0A68F91A770813005845CF /* AVFoundation.framework */,
+				2D0A68FA1A770813005845CF /* CFNetwork.framework */,
+				2D0A68FB1A770813005845CF /* CoreMedia.framework */,
+				2D0A68FC1A770813005845CF /* CoreText.framework */,
+				2D0A68FD1A770813005845CF /* MediaAccessibility.framework */,
+				2D0A68FE1A770813005845CF /* MediaPlayer.framework */,
+				2D0A68FF1A770813005845CF /* QuartzCore.framework */,
+				2D0A69001A770813005845CF /* Security.framework */,
+				2D0A69011A770813005845CF /* SystemConfiguration.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DE9E0F11C5FE74003F90F6 /* ComOoyalaModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComOoyalaModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComOoyalaModule.h */,
+				24DD6CF81134B3F500162E58 /* ComOoyalaModule.m */,
+				2D0A680C1A77052F005845CF /* ComOoyalaView.h */,
+				2D0A68041A7704A8005845CF /* ComOoyalaViewProxy.h */,
+				2D0A68061A7704EC005845CF /* ComOoyalaView.m */,
+				2D0A680A1A770512005845CF /* ComOoyalaViewProxy.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2D0A68831A770794005845CF /* OoyalaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2D0A68841A7707B4005845CF /* Headers */,
+				2D0A68BE1A7707B4005845CF /* libOoyalaSDK.a */,
+			);
+			name = OoyalaSDK;
+			sourceTree = "<group>";
+		};
+		2D0A68841A7707B4005845CF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2D0A68851A7707B4005845CF /* OOAdPlugin.h */,
+				2D0A68861A7707B4005845CF /* OOAdPluginManagerProtocol.h */,
+				2D0A68871A7707B4005845CF /* OOAdSpot.h */,
+				2D0A68881A7707B4005845CF /* OOAdSpotManager.h */,
+				2D0A68891A7707B4005845CF /* OOAdSpotPlugin.h */,
+				2D0A688A1A7707B4005845CF /* OOAnalytics.h */,
+				2D0A688B1A7707B4005845CF /* OOAuthorizableItem.h */,
+				2D0A688C1A7707B4005845CF /* OOCallbacks.h */,
+				2D0A688D1A7707B4005845CF /* OOCaption.h */,
+				2D0A688E1A7707B4005845CF /* OOChannel.h */,
+				2D0A688F1A7707B4005845CF /* OOChannelSet.h */,
+				2D0A68901A7707B4005845CF /* OOClientId.h */,
+				2D0A68911A7707B4005845CF /* OOClosedCaptions.h */,
+				2D0A68921A7707B4005845CF /* OOClosedCaptionsStyle.h */,
+				2D0A68931A7707B4005845CF /* OOContentItem.h */,
+				2D0A68941A7707B4005845CF /* OODebugMode.h */,
+				2D0A68951A7707B4005845CF /* OODefaultPlayerInfo.h */,
+				2D0A68961A7707B4005845CF /* OODynamicChannel.h */,
+				2D0A68971A7707B4005845CF /* OOEmbeddedSecureURLGenerator.h */,
+				2D0A68981A7707B4005845CF /* OOEmbeddedSignatureGenerator.h */,
+				2D0A68991A7707B4005845CF /* OOEmbedTokenGenerator.h */,
+				2D0A689A1A7707B4005845CF /* OOFCCTVRating.h */,
+				2D0A689B1A7707B4005845CF /* OOFCCTVRatingConfiguration.h */,
+				2D0A689C1A7707B4005845CF /* OOLifeCycle.h */,
+				2D0A689D1A7707B4005845CF /* OOManagedAdsPlugin.h */,
+				2D0A689E1A7707B4005845CF /* OOManagedAdSpot.h */,
+				2D0A689F1A7707B4005845CF /* OOModule.h */,
+				2D0A68A01A7707B4005845CF /* OOOoyalaAdSpot.h */,
+				2D0A68A11A7707B4005845CF /* OOOoyalaAPIClient.h */,
+				2D0A68A21A7707B4005845CF /* OOOoyalaError.h */,
+				2D0A68A31A7707B4005845CF /* OOOoyalaPlayer.h */,
+				2D0A68A41A7707B4005845CF /* OOOoyalaPlayerViewController.h */,
+				2D0A68A51A7707B4005845CF /* OOOptions.h */,
+				2D0A68A61A7707B4005845CF /* OOOrderedDictionary.h */,
+				2D0A68A71A7707B4005845CF /* OOPaginatedParentItem.h */,
+				2D0A68A81A7707B4005845CF /* OOPlayableItem.h */,
+				2D0A68A91A7707B4005845CF /* OOPlayer.h */,
+				2D0A68AA1A7707B4005845CF /* OOPlayerDomain.h */,
+				2D0A68AB1A7707B4005845CF /* OOPlayerInfo.h */,
+				2D0A68AC1A7707B4005845CF /* OOPlayerProtocol.h */,
+				2D0A68AD1A7707B4005845CF /* OOReturnState.h */,
+				2D0A68AE1A7707B4005845CF /* OOSecureURLGenerator.h */,
+				2D0A68AF1A7707B4005845CF /* OOSignatureGenerator.h */,
+				2D0A68B01A7707B4005845CF /* OOStateNotifier.h */,
+				2D0A68B11A7707B4005845CF /* OOStream.h */,
+				2D0A68B21A7707B4005845CF /* OOStreamPlayer.h */,
+				2D0A68B31A7707B4005845CF /* OOTBXML.h */,
+				2D0A68B41A7707B4005845CF /* OOUserInfo.h */,
+				2D0A68B51A7707B4005845CF /* OOVASTAd.h */,
+				2D0A68B61A7707B4005845CF /* OOVASTAdData.h */,
+				2D0A68B71A7707B4005845CF /* OOVASTAdSpot.h */,
+				2D0A68B81A7707B4005845CF /* OOVASTLinearAd.h */,
+				2D0A68B91A7707B4005845CF /* OOVASTSequenceItem.h */,
+				2D0A68BA1A7707B4005845CF /* OOVASTStream.h */,
+				2D0A68BB1A7707B4005845CF /* OOVASTUtils.h */,
+				2D0A68BC1A7707B4005845CF /* OOVASTWrapperAd.h */,
+				2D0A68BD1A7707B4005845CF /* OOVideo.h */,
+			);
+			name = Headers;
+			path = OoyalaSDK/Headers;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ComOoyala_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0A68BF1A7707B4005845CF /* OOAdPlugin.h in Headers */,
+				2D0A68C61A7707B4005845CF /* OOCallbacks.h in Headers */,
+				2D0A68C11A7707B4005845CF /* OOAdSpot.h in Headers */,
+				2D0A68EC1A7707B4005845CF /* OOStreamPlayer.h in Headers */,
+				2D0A68E91A7707B4005845CF /* OOSignatureGenerator.h in Headers */,
+				2D0A68D61A7707B4005845CF /* OOLifeCycle.h in Headers */,
+				2D0A68F71A7707B4005845CF /* OOVideo.h in Headers */,
+				2D0A68F01A7707B4005845CF /* OOVASTAdData.h in Headers */,
+				2D0A68E21A7707B4005845CF /* OOPlayableItem.h in Headers */,
+				2D0A68D91A7707B4005845CF /* OOModule.h in Headers */,
+				2D0A68F21A7707B4005845CF /* OOVASTLinearAd.h in Headers */,
+				2D0A68C81A7707B4005845CF /* OOChannel.h in Headers */,
+				2D0A68E31A7707B4005845CF /* OOPlayer.h in Headers */,
+				2D0A68F51A7707B4005845CF /* OOVASTUtils.h in Headers */,
+				2D0A68D81A7707B4005845CF /* OOManagedAdSpot.h in Headers */,
+				2D0A68EF1A7707B4005845CF /* OOVASTAd.h in Headers */,
+				2D0A68F31A7707B4005845CF /* OOVASTSequenceItem.h in Headers */,
+				2D0A68CA1A7707B4005845CF /* OOClientId.h in Headers */,
+				2D0A68D71A7707B4005845CF /* OOManagedAdsPlugin.h in Headers */,
+				2D0A68EA1A7707B4005845CF /* OOStateNotifier.h in Headers */,
+				2D0A68E51A7707B4005845CF /* OOPlayerInfo.h in Headers */,
+				2D0A68C21A7707B4005845CF /* OOAdSpotManager.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* ComOoyala_Prefix.pch in Headers */,
+				2D0A68CB1A7707B4005845CF /* OOClosedCaptions.h in Headers */,
+				2D0A68CE1A7707B4005845CF /* OODebugMode.h in Headers */,
+				2D0A68F41A7707B4005845CF /* OOVASTStream.h in Headers */,
+				2D0A68DC1A7707B4005845CF /* OOOoyalaError.h in Headers */,
+				2D0A68ED1A7707B4005845CF /* OOTBXML.h in Headers */,
+				2D0A68CF1A7707B4005845CF /* OODefaultPlayerInfo.h in Headers */,
+				2D0A68D31A7707B4005845CF /* OOEmbedTokenGenerator.h in Headers */,
+				2D0A680D1A77052F005845CF /* ComOoyalaView.h in Headers */,
+				2D0A68E61A7707B4005845CF /* OOPlayerProtocol.h in Headers */,
+				2D0A68F61A7707B4005845CF /* OOVASTWrapperAd.h in Headers */,
+				2D0A68CD1A7707B4005845CF /* OOContentItem.h in Headers */,
+				2D0A68E71A7707B4005845CF /* OOReturnState.h in Headers */,
+				2D0A68DA1A7707B4005845CF /* OOOoyalaAdSpot.h in Headers */,
+				2D0A68DE1A7707B4005845CF /* OOOoyalaPlayerViewController.h in Headers */,
+				2D0A68C91A7707B4005845CF /* OOChannelSet.h in Headers */,
+				2D0A68EE1A7707B4005845CF /* OOUserInfo.h in Headers */,
+				2D0A68E41A7707B4005845CF /* OOPlayerDomain.h in Headers */,
+				2D0A68D21A7707B4005845CF /* OOEmbeddedSignatureGenerator.h in Headers */,
+				2D0A68EB1A7707B4005845CF /* OOStream.h in Headers */,
+				2D0A68D11A7707B4005845CF /* OOEmbeddedSecureURLGenerator.h in Headers */,
+				2D0A68E81A7707B4005845CF /* OOSecureURLGenerator.h in Headers */,
+				2D0A68D01A7707B4005845CF /* OODynamicChannel.h in Headers */,
+				2D0A68E01A7707B4005845CF /* OOOrderedDictionary.h in Headers */,
+				2D0A68C51A7707B4005845CF /* OOAuthorizableItem.h in Headers */,
+				2D0A68C71A7707B4005845CF /* OOCaption.h in Headers */,
+				2D0A68D41A7707B4005845CF /* OOFCCTVRating.h in Headers */,
+				2D0A68F11A7707B4005845CF /* OOVASTAdSpot.h in Headers */,
+				2D0A68DD1A7707B4005845CF /* OOOoyalaPlayer.h in Headers */,
+				2D0A68C01A7707B4005845CF /* OOAdPluginManagerProtocol.h in Headers */,
+				2D0A68C31A7707B4005845CF /* OOAdSpotPlugin.h in Headers */,
+				24DD6CF91134B3F500162E58 /* ComOoyalaModule.h in Headers */,
+				2D0A68D51A7707B4005845CF /* OOFCCTVRatingConfiguration.h in Headers */,
+				2D0A68E11A7707B4005845CF /* OOPaginatedParentItem.h in Headers */,
+				2D0A68C41A7707B4005845CF /* OOAnalytics.h in Headers */,
+				2D0A68CC1A7707B4005845CF /* OOClosedCaptionsStyle.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComOoyalaModuleAssets.h in Headers */,
+				2D0A68DF1A7707B4005845CF /* OOOptions.h in Headers */,
+				2D0A68091A7704FB005845CF /* ComOoyalaViewProxy.h in Headers */,
+				2D0A68DB1A7707B4005845CF /* OOOoyalaAPIClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* ooyala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ooyala" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ooyala;
+			productName = ooyala;
+			productReference = D2AAC07E0554694100DB518D /* libComOoyala.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ooyala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* ooyala */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* ooyala */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0A680B1A770512005845CF /* ComOoyalaViewProxy.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* ComOoyalaModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComOoyalaModuleAssets.m in Sources */,
+				2D0A68071A7704EC005845CF /* ComOoyalaView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* ooyala */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComOoyala.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComOoyala_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/askinner/Downloads/OoyalaSDK-iOS",
+					"$(PROJECT_DIR)/OoyalaSDK",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComOoyala;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/ComOoyala.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComOoyala_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/askinner/Downloads/OoyalaSDK-iOS",
+					"$(PROJECT_DIR)/OoyalaSDK",
+				);
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = ComOoyala;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComOoyala.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComOoyala_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComOoyala;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DSTROOT = /tmp/ComOoyala.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComOoyala_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComOoyala;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ooyala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ooyala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

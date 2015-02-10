@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: ooyala
+author: PurposeLab
+license: Specify your license
+copyright: Copyright (c) 2015 by PurposeLab
+
+# these should not be edited
+name: ooyala
+moduleid: com.ooyala
+guid: d7cbed39-ee9e-4968-842d-63daf9bb9596
+platform: iphone
+minsdk: 3.5.0.GA
